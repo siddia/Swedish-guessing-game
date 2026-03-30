@@ -108,7 +108,7 @@ button {
   transform: rotate(10deg);
 }
 
-.shelf {
+.frame {
   top: 48%;
   left: calc(50% + 425px);
   font-size: 4.1rem;
