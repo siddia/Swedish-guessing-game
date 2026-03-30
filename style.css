@@ -67,7 +67,7 @@ button {
 .furniture-piece {
   position: absolute;
   display: block;
-  opacity: 0.5;
+  opacity: 0.3;
   filter: drop-shadow(0 10px 22px rgba(79, 124, 255, 0.22));
   user-select: none;
   line-height: 1;
@@ -82,7 +82,7 @@ button {
 
 .lamp {
   top: 14%;
-  left: calc(50% + 420px);
+  left: calc(50% + 400px);
   font-size: 4.8rem;
   transform: rotate(12deg);
 }
@@ -103,14 +103,14 @@ button {
 
 .door {
   bottom: 17%;
-  left: calc(50% + 335px);
+  left: calc(50% + 395px);
   font-size: 4.4rem;
   transform: rotate(10deg);
 }
 
 .shelf {
   top: 48%;
-  left: calc(50% + 405px);
+  left: calc(50% + 425px);
   font-size: 4.1rem;
   transform: rotate(-6deg);
 }
