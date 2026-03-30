@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "RÅSKOG",
+    "question": "What type of item is RÅSKOG?",
+    "options": ["Utility cart", "Bed frame", "Wall mirror", "Curtain rod"],
+    "answer": "Utility cart",
+    "difficulty": "easy",
+    "fact": "RÅSKOG is a rolling storage cart that works well in kitchens, offices, and craft corners."
+  },
+  {
+    "id": 2,
+    "name": "KALLAX",
+    "question": "What type of item is KALLAX?",
+    "options": ["Dining chair", "Shelving unit", "Ceiling fan", "Bath mat"],
+    "answer": "Shelving unit",
+    "difficulty": "easy",
+    "fact": "KALLAX is known for cube-style storage and often doubles as a room divider."
+  },
+  {
+    "id": 3,
+    "name": "SKÅDIS",
+    "question": "What type of item is SKÅDIS?",
+    "options": ["Pegboard", "Coffee table", "Floor cushion", "Blanket"],
+    "answer": "Pegboard",
+    "difficulty": "easy",
+    "fact": "SKÅDIS is part of an organizer system that can hold hooks, containers, and shelves."
+  },
+  {
+    "id": 4,
+    "name": "KLEPPSTAD",
+    "question": "What type of item is KLEPPSTAD?",
+    "options": ["Wardrobe", "Desk lamp", "Plant stand", "Soap dispenser"],
+    "answer": "Wardrobe",
+    "difficulty": "easy",
+    "fact": "KLEPPSTAD is a bedroom storage series, and the wardrobe version is one of its most recognizable pieces."
+  },
+  {
+    "id": 5,
+    "name": "NÄTBARB",
+    "question": "What type of item is NÄTBARB?",
+    "options": ["Dinner plate", "Desk organizer", "Pillow cover", "Laptop stand"],
+    "answer": "Dinner plate",
+    "difficulty": "medium",
+    "fact": "NÄTBARB is part of a tempered-glass tableware series with plates and bowls."
+  },
+  {
+    "id": 6,
+    "name": "SOLKLINT",
+    "question": "What type of item is SOLKLINT?",
+    "options": ["Lamp", "Rug", "TV stand", "Laundry basket"],
+    "answer": "Lamp",
+    "difficulty": "medium",
+    "fact": "SOLKLINT appears in multiple lighting styles, including ceiling, wall, and table lamps."
+  },
+  {
+    "id": 7,
+    "name": "FADO",
+    "question": "What type of item is FADO?",
+    "options": ["Lamp", "Bookshelf", "Bench", "Storage bin"],
+    "answer": "Lamp",
+    "difficulty": "easy",
+    "fact": "FADO is a round globe-style table lamp designed to give off a soft glow."
+  },
+  {
+    "id": 8,
+    "name": "TÄRNABY",
+    "question": "What type of item is TÄRNABY?",
+    "options": ["Lamp", "Stool", "Plate rack", "Duvet cover"],
+    "answer": "Lamp",
+    "difficulty": "medium",
+    "fact": "TÄRNABY has a vintage look inspired by old kerosene lamps and includes a built-in dimmer."
+  },
+  {
+    "id": 9,
+    "name": "FINNALA",
+    "question": "What type of item is FINNALA?",
+    "options": ["Sofa", "Plant pot", "Folding chair", "Bath towel"],
+    "answer": "Sofa",
+    "difficulty": "easy",
+    "fact": "FINNALA is a seating series best known for sofas, sectionals, and chaise combinations."
+  },
+  {
+    "id": 10,
+    "name": "BÅRSLÖV",
+    "question": "What type of item is BÅRSLÖV?",
+    "options": ["Sofa-bed", "Dining table", "Pendant lamp", "Wall shelf"],
+    "answer": "Sofa-bed",
+    "difficulty": "medium",
+    "fact": "BÅRSLÖV is designed for sitting, lounging, and sleeping, with built-in storage in some versions."
+  },
+  {
+    "id": 11,
+    "name": "NISSAFORS",
+    "question": "What type of item is NISSAFORS?",
+    "options": ["Utility cart", "Bar stool", "Mirror", "Comforter"],
+    "answer": "Utility cart",
+    "difficulty": "medium",
+    "fact": "NISSAFORS is another rolling cart, compact enough to fit into smaller spaces."
+  },
+  {
+    "id": 12,
+    "name": "LÄMPLIG",
+    "question": "What type of item is LÄMPLIG?",
+    "options": ["Chopping board", "Window blind", "Wardrobe handle", "Tray table"],
+    "answer": "Chopping board",
+    "difficulty": "medium",
+    "fact": "LÄMPLIG is a bamboo chopping board with a groove designed to catch juices."
+  },
+  {
+    "id": 13,
+    "name": "BRUSALI",
+    "question": "What type of item is BRUSALI?",
+    "options": ["Shoe cabinet", "Bookshelf", "Desk chair", "Tea kettle"],
+    "answer": "Shoe cabinet",
+    "difficulty": "medium",
+    "fact": "BRUSALI includes hallway storage pieces, and the shoe cabinet is one of its best-known versions."
+  },
+  {
+    "id": 14,
+    "name": "FULLSPÄCKAD",
+    "question": "What type of item is FULLSPÄCKAD?",
+    "options": ["Serving tray", "Curtain", "Bathroom shelf", "Floor lamp"],
+    "answer": "Serving tray",
+    "difficulty": "hard",
+    "fact": "FULLSPÄCKAD is a two-level serving tray made for snacks, drinks, and easy carrying."
+  },
+  {
+    "id": 15,
+    "name": "KVITTERA",
+    "question": "What type of item is KVITTERA?",
+    "options": ["Serving stand", "Nightstand", "Clothes rail", "Doormat"],
+    "answer": "Serving stand",
+    "difficulty": "hard",
+    "fact": "KVITTERA is a tiered serving stand often used for pastries, finger foods, and party treats."
+  },
+  {
+    "id": 16,
+    "name": "JÄRNVÄG",
+    "question": "What type of item is JÄRNVÄG?",
+    "options": ["Rug", "Ceiling lamp", "Dining bench", "Water bottle"],
+    "answer": "Rug",
+    "difficulty": "hard",
+    "fact": "JÄRNVÄG is a patterned low-pile rug with a look inspired by classic oriental designs."
+  },
+  {
+    "id": 17,
+    "name": "GERSBY",
+    "question": "What type of item is GERSBY?",
+    "options": ["Bookcase", "Armchair", "Step stool", "Napkin holder"],
+    "answer": "Bookcase",
+    "difficulty": "medium",
+    "fact": "GERSBY is a slim bookcase that is especially handy for small spaces and hallways."
+  },
+  {
+    "id": 18,
+    "name": "STRANDAD",
+    "question": "What type of item is STRANDAD?",
+    "options": ["Floor lamp", "Bedside table", "Utensil tray", "Curtain tieback"],
+    "answer": "Floor lamp",
+    "difficulty": "hard",
+    "fact": "STRANDAD uses a rice-paper shade to spread a soft and diffused light."
+  },
+  {
+    "id": 19,
+    "name": "HUVUDROLL",
+    "question": "What type of item is HUVUDROLL?",
+    "options": ["Meatballs", "Desk", "Trash bin", "Wall hook"],
+    "answer": "Meatballs",
+    "difficulty": "hard",
+    "fact": "HUVUDROLL is part of IKEA's food range and includes classic meatballs along with plant-based options."
+  },
+  {
+    "id": 20,
+    "name": "HÅLLBAR",
+    "question": "What type of item is HÅLLBAR?",
+    "options": ["Recycling bin", "Table runner", "Sofa", "Picture frame"],
+    "answer": "Recycling bin",
+    "difficulty": "medium",
+    "fact": "HÅLLBAR is a waste-sorting series designed to make recycling easier and tidier at home."
+  }
+]
