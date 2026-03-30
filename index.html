@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swedish Furniture Name</title>
+  <meta name="description" content="A playful 10-round quiz game where you guess what Swedish-style product names actually are." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <div class="bg-blob blob-a"></div>
+    <div class="bg-blob blob-b"></div>
+    <div class="bg-blob blob-c"></div>
+
+    <main class="app-card" aria-live="polite">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Quiz Game</p>
+          <h1>Swedish Furniture Name</h1>
+        </div>
+        <div class="score-chip" id="scoreChip">Score: 0</div>
+      </header>
+
+      <section id="startScreen" class="screen active">
+        <div class="hero-card">
+          <span class="hero-badge">10 rounds</span>
+          <h2>Can you tell a sofa from a serving tray?</h2>
+          <p>
+            Guess what each Swedish product name actually is. You will get 10 rounds,
+            4 choices each time, a running score, and a little celebration whenever you get one right.
+          </p>
+          <div class="hero-actions">
+            <button id="startBtn" class="btn btn-primary">Start Game</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="quizScreen" class="screen" aria-hidden="true">
+        <div class="status-row">
+          <div>
+            <p class="mini-label">Round</p>
+            <p class="status-value"><span id="roundNumber">1</span> / 10</p>
+          </div>
+          <div>
+            <p class="mini-label">Difficulty</p>
+            <p class="status-value" id="difficultyLabel">Easy</p>
+          </div>
+        </div>
+
+        <div class="progress-wrap" aria-label="Quiz progress">
+          <div id="progressBar" class="progress-bar"></div>
+        </div>
+
+        <div class="question-card">
+          <p class="question-kicker">What type of item is...</p>
+          <h2 id="itemName" class="item-name">KALLAX</h2>
+          <p id="questionText" class="question-text">What type of item is KALLAX?</p>
+
+          <div id="answersContainer" class="answers-grid"></div>
+
+          <div id="feedbackPanel" class="feedback-panel hidden">
+            <p id="feedbackMessage" class="feedback-message"></p>
+            <p id="factText" class="fact-text"></p>
+            <button id="nextBtn" class="btn btn-secondary">Next Round</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="endScreen" class="screen" aria-hidden="true">
+        <div class="hero-card end-card">
+          <span class="hero-badge">All done</span>
+          <h2 id="finalTitle">Flat-pack champion.</h2>
+          <p id="finalScoreText">You scored 8 out of 10.</p>
+          <p id="finalMessage" class="final-message"></p>
+          <div class="hero-actions">
+            <button id="restartBtn" class="btn btn-primary">Try Again</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      Built for fun, frontend practice, and your portfolio.
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
