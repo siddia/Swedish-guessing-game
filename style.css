@@ -67,7 +67,7 @@ button {
 .furniture-piece {
   position: absolute;
   display: block;
-  opacity: 0.7;
+  opacity: 0.5;
   filter: drop-shadow(0 10px 22px rgba(79, 124, 255, 0.22));
   user-select: none;
   line-height: 1;
@@ -82,7 +82,7 @@ button {
 
 .lamp {
   top: 14%;
-  left: calc(50% + 320px);
+  left: calc(50% + 420px);
   font-size: 4.8rem;
   transform: rotate(12deg);
 }
@@ -110,7 +110,7 @@ button {
 
 .shelf {
   top: 48%;
-  left: calc(50% + 305px);
+  left: calc(50% + 405px);
   font-size: 4.1rem;
   transform: rotate(-6deg);
 }
