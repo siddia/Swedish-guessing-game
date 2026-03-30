@@ -211,21 +211,24 @@ function launchConfetti() {
   const colors = ['#4f7cff', '#ff8f5a', '#ffd95a', '#25b46b', '#f15b6c'];
   const launchers = [
     { x: '22px', y: '24px', direction: 1 },
+    { x: '50vw', y: '24px', direction: Math.random() > 0.5 ? 1 : -1 },
     { x: 'calc(100vw - 22px)', y: '24px', direction: -1 }
   ];
 
-  for (let i = 0; i < 36; i += 1) {
+  for (let i = 0; i < 210; i += 1) {
     const piece = document.createElement('span');
     const launcher = launchers[i % launchers.length];
-    const horizontalDrift = (95 + Math.random() * 210) * launcher.direction;
-    const verticalTravel = -(220 + Math.random() * 340);
+    const horizontalDrift = (135 + Math.random() * 320) * launcher.direction;
+    const verticalTravel = -(250 + Math.random() * 380);
     const spin = `${(Math.random() > 0.5 ? 1 : -1) * (360 + Math.random() * 540)}deg`;
 
     piece.className = 'confetti-piece';
     piece.style.left = launcher.x;
     piece.style.bottom = launcher.y;
     piece.style.background = colors[Math.floor(Math.random() * colors.length)];
-    piece.style.animationDuration = `${0.85 + Math.random() * 0.45}s`;
+    piece.style.width = `${8 + Math.random() * 6}px`;
+    piece.style.height = `${14 + Math.random() * 12}px`;
+    piece.style.animationDuration = `${0.95 + Math.random() * 0.55}s`;
     piece.style.animationDelay = `${Math.random() * 0.08}s`;
     piece.style.setProperty('--travel-x', `${horizontalDrift}px`);
     piece.style.setProperty('--travel-y', `${verticalTravel}px`);
